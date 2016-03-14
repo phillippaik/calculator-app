@@ -13,6 +13,7 @@
 		780BFFBE1C95EAAB00D34FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780BFFBD1C95EAAB00D34FD3 /* Assets.xcassets */; };
 		780BFFC11C95EAAB00D34FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BFFBF1C95EAAB00D34FD3 /* LaunchScreen.storyboard */; };
 		780BFFC91C9605D600D34FD3 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 780BFFC81C9605D600D34FD3 /* Minecraft.ttf */; };
+		780BFFCB1C96139C00D34FD3 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 780BFFCA1C96139C00D34FD3 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		780BFFC01C95EAAB00D34FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		780BFFC21C95EAAB00D34FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		780BFFC81C9605D600D34FD3 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		780BFFCA1C96139C00D34FD3 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				780BFFC81C9605D600D34FD3 /* Minecraft.ttf */,
+				780BFFCA1C96139C00D34FD3 /* btn.wav */,
 				780BFFB61C95EAAB00D34FD3 /* AppDelegate.swift */,
 				780BFFB81C95EAAB00D34FD3 /* ViewController.swift */,
 				780BFFBA1C95EAAB00D34FD3 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780BFFCB1C96139C00D34FD3 /* btn.wav in Resources */,
 				780BFFC11C95EAAB00D34FD3 /* LaunchScreen.storyboard in Resources */,
 				780BFFBE1C95EAAB00D34FD3 /* Assets.xcassets in Resources */,
 				780BFFC91C9605D600D34FD3 /* Minecraft.ttf in Resources */,
