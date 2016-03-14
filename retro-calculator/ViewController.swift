@@ -121,6 +121,15 @@ class ViewController: UIViewController {
     @IBAction func onEqualsPressed(sender: AnyObject) {
         processOperation(currentOperation)
     }
+    @IBAction func onClearPressed(sender: AnyObject) {
+        playSound()
+        runningNumber = "";
+        leftValString = "";
+        rightValString = "";
+        currentOperation = Operation.Empty
+        result = "";
+        outputLabel.text = "0"
+    }
     
 }
 
